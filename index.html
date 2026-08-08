@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#351046">
+  <meta name="robots" content="noindex,nofollow,noarchive">
+  <title>Resultados Proyectia · UNAL</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <nav class="topbar">
+      <a class="brand" href="#" aria-label="Proyectia">
+        <img src="assets/logo-proyectia-morado.png" alt="Logo Proyectia">
+        <span>PROYECTIA</span>
+      </a>
+    </nav>
+
+    <section class="hero-content">
+      <div>
+        <p class="eyebrow">Resultados · preparación examen UNAL</p>
+        <h1>Consulta tus resultados y tu progresión</h1>
+        <p class="lead">Ingresa el documento de identidad que utilizaste en el momento de hacer el simulacro.</p>
+        <div class="search-card">
+          <label class="sr-only" for="documento">Documento de identidad</label>
+          <input id="documento" inputmode="numeric" autocomplete="off" placeholder="Documento de identidad">
+          <button id="buscar" type="button">Consultar</button>
+        </div>
+        <p id="estado" class="search-status" aria-live="polite"></p>
+      </div>
+      <div class="hero-logo" aria-hidden="true">
+        <img src="assets/logo-proyectia-morado.png" alt="">
+      </div>
+    </section>
+  </header>
+
+  <main class="container">
+    <section id="menu-view" class="hidden"></section>
+    <section id="report-view" class="hidden"></section>
+    <section id="progress-view" class="hidden"></section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-strip">
+      <span><b>Proyectia</b> te ayuda a convertir estos datos en una meta de preparación.</span>
+      <strong>¡Creemos en tu proyecto!</strong>
+    </div>
+    <section class="connect-card" aria-label="Conecta con Proyectia">
+      <div class="connect-copy">
+        <h2>Conecta con Proyectia</h2>
+        <p>Síguenos, revisa toda la información del PreUNAL y entra a nuestro canal de WhatsApp para recibir novedades.</p>
+        <p class="whatsapp-line">WhatsApp: <a href="https://wa.me/573224605812" target="_blank" rel="noopener">322 460 5812</a></p>
+      </div>
+      <div class="social-grid">
+        <a class="social-button" href="https://www.instagram.com/proyectiapreu" target="_blank" rel="noopener" aria-label="Instagram Proyectia">
+          <span class="social-icon instagram-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="5" y="5" width="14" height="14" rx="4"></rect><circle cx="12" cy="12" r="3.2"></circle><circle cx="16.7" cy="7.3" r=".9"></circle></svg></span>
+          Instagram
+        </a>
+        <a class="social-button" href="https://linktr.ee/proyectiapreu" target="_blank" rel="noopener" aria-label="Linktree Proyectia">
+          <span class="social-icon linktree-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 4v16"></path><path d="M8 7l4-4 4 4"></path><path d="M7 11l5-5 5 5"></path><path d="M8 15l4-4 4 4"></path></svg></span>
+          Linktree
+        </a>
+        <a class="social-button" href="https://www.tiktok.com/@proyectiapreu" target="_blank" rel="noopener" aria-label="TikTok Proyectia">
+          <span class="social-icon tiktok-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M14 4v9.2a4.2 4.2 0 1 1-4.2-4.2"></path><path d="M14 4c.6 3.2 2.4 5 5 5.3"></path></svg></span>
+          TikTok
+        </a>
+        <a class="social-button" href="https://wa.me/573224605812" target="_blank" rel="noopener" aria-label="Canal WhatsApp Proyectia">
+          <span class="social-icon whatsapp-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5.5 18.5l.9-3A7 7 0 1 1 9 18.1z"></path><path d="M9.2 8.7c.2 3 2.1 5 5 5.9l1.1-1.3"></path></svg></span>
+          Canal WhatsApp
+        </a>
+      </div>
+    </section>
+  </footer>
+
+  <script src="https://cdn.sheetjs.com/xlsx-0.20.3/package/dist/xlsx.full.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
