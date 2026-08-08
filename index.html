@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#351046">
+  <meta name="robots" content="noindex,nofollow,noarchive">
+  <title>Resultados Proyectia · UNAL</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <nav class="topbar">
+      <a class="brand" href="#" aria-label="Proyectia">
+        <img src="assets/logo-proyectia-morado.png" alt="Logo Proyectia">
+        <span>PROYECTIA</span>
+      </a>
+    </nav>
+
+    <section class="hero-content">
+      <div>
+        <p class="eyebrow">Resultados · preparación examen UNAL</p>
+        <h1>Consulta tus resultados y tu progresión</h1>
+        <p class="lead">Ingresa el documento de identidad que utilizaste en el momento de hacer el simulacro.</p>
+        <div class="search-card">
+          <label class="sr-only" for="documento">Documento de identidad</label>
+          <input id="documento" inputmode="numeric" autocomplete="off" placeholder="Documento de identidad">
+          <button id="buscar" type="button">Consultar</button>
+        </div>
+        <p id="estado" class="search-status" aria-live="polite"></p>
+      </div>
+      <div class="hero-logo" aria-hidden="true">
+        <img src="assets/logo-proyectia-morado.png" alt="">
+      </div>
+    </section>
+  </header>
+
+  <main class="container">
+    <section id="menu-view" class="hidden"></section>
+    <section id="report-view" class="hidden"></section>
+    <section id="progress-view" class="hidden"></section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img src="assets/logo-proyectia-claro.png" alt="Logo Proyectia">
+        <div><strong>Proyectia PreUniversitario</strong><span>Preparación para el examen de admisión UNAL</span></div>
+      </div>
+      <div class="social-block">
+        <h2>Conecta con Proyectia</h2>
+        <div class="social-links">
+          <a href="https://www.instagram.com/proyectiapreu" target="_blank" rel="noopener" aria-label="Instagram de Proyectia"><img src="assets/social/instagram.svg" alt="Instagram"><span>Instagram</span></a>
+          <a href="https://www.tiktok.com/@proyectiapreu" target="_blank" rel="noopener" aria-label="TikTok de Proyectia"><img src="assets/social/tiktok.svg" alt="TikTok"><span>TikTok</span></a>
+          <a href="https://linktr.ee/proyectiapreu" target="_blank" rel="noopener" aria-label="Linktree de Proyectia"><img src="assets/social/linktree.svg" alt="Linktree"><span>Linktree</span></a>
+          <a href="https://wa.me/573224605812" target="_blank" rel="noopener" aria-label="WhatsApp de Proyectia"><img src="assets/social/whatsapp.svg" alt="WhatsApp"><span>WhatsApp</span></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.sheetjs.com/xlsx-0.20.3/package/dist/xlsx.full.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
